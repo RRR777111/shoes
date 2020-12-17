@@ -1,0 +1,36 @@
+@mixin mvBg($url) {
+  width: 100%;
+  height: 100vh;
+  background: url($pos + $url) center center / cover;
+}
+
+@mixin mvBgMedia($url) {
+  background: url($pos + $url) 50% 50% / 90% 90% no-repeat;
+  width: 100%;
+  height: 100vh;
+}
+
+@mixin media($width-madia: 980px) {
+  @media screen and(min-width: $width-madia) {
+    @content
+  }
+}
+
+
+
+@mixin menu {
+  margin: 0 auto;
+  padding-bottom: 88px;
+  width: 90%;
+  max-width: 1280px;
+}
+
+@mixin ttl {
+  margin-bottom: 32px;
+  font-size: 22px;
+  text-align: center;
+}
+
+@mixin bgImg($url) {
+  background: url($pos + $url) center center / cover;
+}

@@ -1,0 +1,18 @@
+.VueCarousel-slide.slide1 {
+  @include mvBg("img1.png");
+  @include media{
+    @include mvBgMedia("img1.png");
+  }
+}
+.VueCarousel-slide.slide2 {
+  @include mvBg("img2.png");
+  @include media{
+    @include mvBgMedia("img2.png");
+  }
+}
+.VueCarousel-slide.slide3 {
+  @include mvBg("img3.png");
+  @include media{
+    @include mvBgMedia("img3.png");
+  }
+}

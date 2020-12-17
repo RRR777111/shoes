@@ -1,0 +1,21 @@
+.resize{
+  height: 64px;
+  background: linear-gradient(180deg, rgba(255, 179, 255, .5) 100%,rgba(255, 254, 255, .1) 100%);
+  transition: translateY(50px);
+}
+
+.ttlResize{
+  font-size: 32px;
+  padding: 50%;
+}
+
+.elms{
+  transform: translateY(50px);
+  opacity: 0;
+  transition: .5s ease;
+}
+
+.fadeIn{
+  transform: translateY(0);
+  opacity: 1;
+}

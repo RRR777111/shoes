@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="utf-8">
+  <title>ここにタイトルがはいります</title>
+  <meta name="keywords" content="">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link href="css/style.css" rel="stylesheet" media="all">
+
+</head>
+<body>
+  <div class="wrapper">
+    <header class="header" id="header">
+      <h1 class="header__ttl" id="header__ttl">Shoes</h1>
+      <nav class="gnav">
+        <ul class="gnav__nav">
+          <li class="gnav__list"><a href="#mv" class="gnav__link">TOP</a></li>
+          <li class="gnav__list"><a href="#menu1" class="gnav__link">nemu1</a></li>
+          <li class="gnav__list"><a href="#menu2" class="gnav__link">nemu2</a></li>
+          <li class="gnav__list"><a href="#menu3" class="gnav__link">nemu3</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="mv" id="mv">
+      <carousel　v-bind:per-page=1 v-bind:pagination-enabled="false"  v-bind:speed= 5000>
+        <slide class="slide1"></slide>
+        <slide class="slide2"></slide>
+        <slide class="slide3"></slide>
+      </carousel>
+    </div>
+
+    <section class="menu1 elms" id="menu1">
+      <div class="menu1__bg">
+        <h2 class="menu1__ttl">menu1</h2>
+        <p class="menu1__txt">
+          Ullamco elit commodo officia anim ex laboris ipsum in labore aliquip deserunt pariatur laboris.
+        </p>
+
+      </div>
+    </section>
+
+    <section class="menu2 elms" id="menu2">
+      <h2 class="menu2__ttl">menu2</h2>
+      <div class="menu2__bg"></div>
+      <p class="menu2__txt">
+        Voluptate nisi eu ipsum magna. Nulla exercitation non id aliquip ea sint magna dolore occaecat laboris eu nulla aliqua. Consequat consectetur aliquip sint cillum amet eu sint aute. Sunt enim ex eiusmod velit quis esse sit eiusmod dolor eiusmod voluptate. Ullamco deserunt anim adipisicing mollit aliquip exercitation dolor. Veniam ut proident nulla ipsum tempor fugiat. Cupidatat id et cillum ipsum labore.
+      </p>
+    </section>
+
+    <section class="menu3 elms" id="menu3">
+      <h2 class="menu3__ttl">menu3</h2>
+      <div class="menu3__bg"></div>
+      <p class="menu3__txt">
+        Voluptate nisi eu ipsum magna. Nulla exercitation non id aliquip ea sint magna dolore occaecat laboris eu nulla aliqua. Consequat consectetur aliquip sint cillum amet eu sint aute. Sunt enim ex eiusmod velit quis esse sit eiusmod dolor eiusmod voluptate. Ullamco deserunt anim adipisicing mollit aliquip exercitation dolor. Veniam ut proident nulla ipsum tempor fugiat. Cupidatat id et cillum ipsum labore.
+      </p>
+    </section>
+    <footer class="footer">
+      <p class="footer__txt">
+        <small class="footer__copy">&copy;copyright</small>
+      </p>
+    </footer>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12/dist/vue.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vue-carousel@0.18.0/dist/vue-carousel.min.js"></script>
+  <script src="main.js"></script>
+  <script src="fanction.js"></script>
+</body>
+
+</html>

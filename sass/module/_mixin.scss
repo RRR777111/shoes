@@ -5,12 +5,12 @@
 }
 
 @mixin mvBgMedia($url) {
-  background: url($pos + $url) 50% 50% / 90% 90% no-repeat;
+  background: url($pos + $url) center center / 95% 95% no-repeat;
   width: 100%;
   height: 100vh;
 }
 
-@mixin media($width-madia: 980px) {
+@mixin media($width-madia: 1024px) {
   @media screen and(min-width: $width-madia) {
     @content
   }

@@ -1,4 +1,4 @@
-'use strict'
+'use strict';
 {
   //リサイズheader
   const mvHeight = document.getElementById('mv').clientHeight;
@@ -25,8 +25,7 @@
       let targetPos = document.getElementById(attr.replace('#', ''));
       let ST = window.pageYOffset;
       const targetRect = targetPos.getBoundingClientRect().top;
-      const gap = 100;
-      const target = targetRect + ST - gap;
+      const target = targetRect + ST;
       window.scroll({
         top: target,
         behavior: 'smooth'

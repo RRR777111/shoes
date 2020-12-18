@@ -50,7 +50,6 @@
   @include menu;
   @include media {
     margin: 0 auto 88px;
-    width: 1200px;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
@@ -61,7 +60,6 @@
   @include menu;
   @include media {
     margin: 0 auto 88px;
-    width: 1200px;
     display: flex;
     justify-content: space-around;
     flex-direction: row-reverse;

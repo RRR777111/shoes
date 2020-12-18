@@ -55,13 +55,12 @@
 
   &__txt {
     color: #fff;
-    font-size: 12px;
+    font-size: 18px;
     letter-spacing: .2em;
     line-height: 1.6;
     @include media{
       margin: 0 auto;
       max-width: 50%;
-      font-size: 18px;
     }
   }
 }
@@ -78,21 +77,19 @@
   &__bg{
     @include bgImg("img5.png");
     margin-bottom: 32px;
-    padding: 30%;
-    width: 100%;
+    padding: 15%;
     @include media{
       padding: 15%;
-      max-width: 500px;
     }
   }
 
   &__txt {
-    font-size: 12px;
+    font-size: 18px;
     letter-spacing: .2em;
     line-height: 1.6;
     @include media{
+      width: 50%;
       max-width: 500px;
-      font-size: 18px;
     }
   }
 }
@@ -109,8 +106,7 @@
   &__bg{
     @include bgImg("img6.png");
     margin-bottom: 32px;
-    padding: 30%;
-    width: 100%;
+    padding: 15%;
     @include media{
       max-width: 500px;
       padding: 15%;
@@ -118,12 +114,12 @@
   }
 
   &__txt {
-    font-size: 12px;
+    font-size: 18px;
     letter-spacing: .2em;
     line-height: 1.6;
     @include media{
+      width: 50%;
       max-width: 500px;
-      font-size: 18px;
     }
   }
 }

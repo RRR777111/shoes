@@ -5,9 +5,7 @@
 }
 
 @mixin mvBgMedia($url) {
-  background: url($pos + $url) center center / cover;
-  // width: %;
-  // height: 100vh;
+  background: url($pos + $url) center center / 85% auto no-repeat;
 }
 
 @mixin media($width-madia: 1024px) {
@@ -15,8 +13,6 @@
     @content
   }
 }
-
-
 
 @mixin menu {
   margin: 0 auto;

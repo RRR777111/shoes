@@ -1,7 +1,7 @@
 'use strict';
 {
   //リサイズheader
-  const mvHeight = document.getElementById('mv').clientHeight;
+  const mvHeight = document.getElementById('app').clientHeight;
   const header = document.getElementById('header');
 
   window.addEventListener('scroll', function(){

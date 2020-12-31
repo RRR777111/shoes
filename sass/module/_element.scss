@@ -77,9 +77,9 @@
   &__bg{
     @include bgImg("img5.png");
     margin-bottom: 32px;
-    padding: 15%;
+    padding: 30%;
     @include media{
-      padding: 15%;
+      padding: 20%;
     }
   }
 
@@ -106,10 +106,10 @@
   &__bg{
     @include bgImg("img6.png");
     margin-bottom: 32px;
-    padding: 15%;
+    padding: 30%;
     @include media{
       max-width: 500px;
-      padding: 15%;
+      padding: 20%;
     }
   }
 

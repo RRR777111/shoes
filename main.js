@@ -1,5 +1,5 @@
 new Vue({
-  el: "#mv",
+  el: "#app",
   components: {
     'carousel': VueCarousel.Carousel,
     'slide': VueCarousel.Slide
